@@ -1,0 +1,2069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="freeglut"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3dview">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/3dview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 3dview"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3dview/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/3dview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 3dview/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indexed_color_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/indexed_color_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexed_color_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indexed_color_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/indexed_color_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexed_color_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indexed_color">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/indexed_color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexed_color"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indexed_color/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/indexed_color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexed_color/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/keyboard_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 keyboard_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/keyboard_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 keyboard_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/keyboard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 keyboard"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/keyboard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 keyboard/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_callback_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/timer_callback_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer_callback_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_callback_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/timer_callback_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer_callback_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lorenz_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Lorenz_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lorenz_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lorenz_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Lorenz_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lorenz_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lorenz">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Lorenz" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lorenz"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lorenz/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Lorenz" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lorenz/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="subwin">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/subwin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 subwin"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="subwin/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/subwin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 subwin/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="One">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/One" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 One"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="One/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/One" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 One/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3dview_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/3dview_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 3dview_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3dview_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/3dview_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 3dview_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/timer_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/timer_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joystick">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/joystick" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 joystick"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joystick/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/joystick" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 joystick/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Fractals_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Fractals_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CallbackMaker">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/CallbackMaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 CallbackMaker"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CallbackMaker/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/CallbackMaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 CallbackMaker/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freeglut_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/lib/libglut.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 freeglut_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freeglut_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/lib/libglut.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 freeglut_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spaceball_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/spaceball_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 spaceball_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spaceball_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/spaceball_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 spaceball_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="One_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/One_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 One_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="One_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/One_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 One_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals_random_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Fractals_random_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals_random_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals_random_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Fractals_random_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals_random_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resizer_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/resizer_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 resizer_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resizer_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/resizer_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 resizer_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi-touch_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/multi-touch_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 multi-touch_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi-touch_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/multi-touch_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 multi-touch_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freeglut">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/lib/libglut.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 freeglut"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freeglut/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/lib/libglut.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 freeglut/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi-touch">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/multi-touch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 multi-touch"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi-touch/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/multi-touch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 multi-touch/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals_random">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Fractals_random" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals_random"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals_random/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Fractals_random" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals_random/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resizer">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/resizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 resizer"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resizer/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/resizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 resizer/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shapes">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/shapes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 shapes"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shapes/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/shapes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 shapes/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CallbackMaker_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/CallbackMaker_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 CallbackMaker_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CallbackMaker_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/CallbackMaker_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 CallbackMaker_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joystick_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/joystick_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 joystick_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joystick_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/joystick_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 joystick_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smooth_opengl3">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/smooth_opengl3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 smooth_opengl3"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smooth_opengl3/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/smooth_opengl3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 smooth_opengl3/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smooth_opengl3_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/smooth_opengl3_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 smooth_opengl3_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smooth_opengl3_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/smooth_opengl3_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 smooth_opengl3_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_callback">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/timer_callback" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer_callback"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_callback/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/timer_callback" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer_callback/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shapes_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/shapes_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 shapes_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shapes_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/shapes_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 shapes_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spaceball">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/spaceball" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 spaceball"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spaceball/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/spaceball" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 spaceball/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Fractals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/Fractals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="subwin_static">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/subwin_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 subwin_static"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="subwin_static/fast">
+				<Option output="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin/subwin_static" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/src"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/include"/>
+					<Add directory="/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 subwin_static/fast"/>
+					<CompileFile command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j24 -f &quot;/home/zensim/Projects/freeglut-3.4.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/include/GL/freeglut.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/include/GL/freeglut_ext.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/include/GL/freeglut_std.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/include/GL/freeglut_ucall.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/include/GL/glut.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/3dview/3dview.c">
+			<Option target="3dview"/>
+			<Option target="3dview_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/CallbackMaker/CallbackMaker.c">
+			<Option target="CallbackMaker"/>
+			<Option target="CallbackMaker_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/Fractals/fractals.c">
+			<Option target="Fractals_static"/>
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/Fractals_random/fractals_random.c">
+			<Option target="Fractals_random_static"/>
+			<Option target="Fractals_random"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/Lorenz/lorenz.c">
+			<Option target="Lorenz_static"/>
+			<Option target="Lorenz"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/One/one.c">
+			<Option target="One"/>
+			<Option target="One_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/indexed_color/idxcol.c">
+			<Option target="indexed_color_static"/>
+			<Option target="indexed_color"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/joystick/joystick.c">
+			<Option target="joystick"/>
+			<Option target="joystick_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/keyboard/keyboard.c">
+			<Option target="keyboard_static"/>
+			<Option target="keyboard"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/multi-touch/multi-touch.c">
+			<Option target="multi-touch_static"/>
+			<Option target="multi-touch"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/resizer/resizer.c">
+			<Option target="resizer_static"/>
+			<Option target="resizer"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/shapes/glmatrix.c">
+			<Option target="shapes"/>
+			<Option target="shapes_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/shapes/glmatrix.h">
+			<Option target="shapes"/>
+			<Option target="shapes_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/shapes/shapes.c">
+			<Option target="shapes"/>
+			<Option target="shapes_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/smooth_opengl3/smooth_opengl3.c">
+			<Option target="smooth_opengl3"/>
+			<Option target="smooth_opengl3_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/spaceball/spaceball.c">
+			<Option target="spaceball_static"/>
+			<Option target="spaceball"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/spaceball/vmath.c">
+			<Option target="spaceball_static"/>
+			<Option target="spaceball"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/spaceball/vmath.h">
+			<Option target="spaceball_static"/>
+			<Option target="spaceball"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/subwin/subwin.c">
+			<Option target="subwin"/>
+			<Option target="subwin_static"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/timer/timer.c">
+			<Option target="timer_static"/>
+			<Option target="timer"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/progs/demos/timer_callback/timer.c">
+			<Option target="timer_callback_static"/>
+			<Option target="timer_callback"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_callback_macros.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_callbacks.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_cursor.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_display.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_ext.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_font.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_font_data.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_gamemode.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_geometry.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_gl2.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_gl2.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_init.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_init.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_input_devices.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_internal.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_joystick.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_main.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_menu.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_misc.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_overlay.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_spaceball.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_state.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_stroke_mono_roman.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_stroke_roman.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_structure.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_teapot.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_teapot_data.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_videoresize.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_window.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/util/xparsegeometry_repl.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/util/xparsegeometry_repl.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_cmap_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_cursor_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_display_x11_glx.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_ext_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_gamemode_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_glutfont_definitions_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_init_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_input_devices_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_internal_x11.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_internal_x11_glx.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_joystick_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_main_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_menu_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_spaceball_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_state_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_state_x11_glx.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_state_x11_glx.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_structure_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_window_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_window_x11_glx.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_window_x11_glx.h">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/x11/fg_xinput_x11.c">
+			<Option target="freeglut_static"/>
+			<Option target="freeglut"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/FreeGLUTConfig.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/config.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/freeglut.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zensim/Projects/freeglut-3.4.0/src/fg_version.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
