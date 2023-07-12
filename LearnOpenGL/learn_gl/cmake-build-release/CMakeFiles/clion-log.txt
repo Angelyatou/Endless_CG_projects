@@ -1,0 +1,5 @@
+"D:\ProgramFilesC\Clion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=D:/ProgramFilesC/Clion/CLion 2022.2.4/bin/ninja/win/ninja.exe" -DCMAKE_INCLUDE_PATH=E:\vcpkg\installed\x64-windows\include -DCMAKE_LIBRARY_PATH=E:\vcpkg\installed\x64-windows\lib -G Ninja -S E:\Endless_CG_Projects\LearnOpenGL\learn_gl -B E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-release

@@ -1,0 +1,5 @@
+# ninja log v5
+0	407	7108735308546449	build.ninja	2faf764fef727092
+6	712	7108647661647230	CMakeFiles/main.dir/main.cpp.obj	26f316f956d5282c
+0	1188	7108705817805263	CMakeFiles/main.dir/template/depends/glad/glad.cpp.obj	389b601ee4132227
+2	753	7108649745940384	main.exe	f7054e15ae4236d3
