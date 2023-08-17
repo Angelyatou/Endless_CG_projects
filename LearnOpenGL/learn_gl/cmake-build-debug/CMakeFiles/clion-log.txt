@@ -1,0 +1,5 @@
+"D:\ProgramFilesC\Clion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" -S E:\Endless_CG_Projects\LearnOpenGL\learn_gl -B E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-debug
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-debug

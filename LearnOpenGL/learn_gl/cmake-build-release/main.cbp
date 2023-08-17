@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="main"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\vcpakage\;CMake Files\..\..\..\vcpakage\vcpkg\;CMake Files\..\..\..\vcpakage\vcpkg\scripts\;CMake Files\..\..\..\vcpakage\vcpkg\scripts\buildsystems\;CMake Files\..\..\..\vcpakage\vcpkg\installed\;CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\;CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\;CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glad\;CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glfw3\;CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glut\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-release/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="E:/vcpakage/vcpkg/installed/x64-windows/include"/>
+					<Add directory="E:\Microsoft Visual Studio\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="E:\Microsoft Visual Studio\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 main"/>
+					<CompileFile command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-release/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DGLFW_DLL"/>
+					<Add directory="E:/vcpakage/vcpkg/installed/x64-windows/include"/>
+					<Add directory="E:\Microsoft Visual Studio\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="E:\Microsoft Visual Studio\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 main/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/draw_polygon/draw_triangle/ShaderSource.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/draw_polygon/draw_triangle/VertexData.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/draw_polygon/draw_triangle/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/template/depends/glad/glad.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/template/depends/glad/glad.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glad/gladConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glad\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glad/gladConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glad\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glad/gladTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glad\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glad/gladTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glad\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glad/gladTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glad\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glfw3\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glfw3\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glfw3\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glfw3\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glfw3\"/>
+		</Unit>
+		<Unit filename="E:/Endless_CG_Projects/LearnOpenGL/learn_gl/../../../vcpakage/vcpkg/installed/x64-windows/share/glut/vcpkg-cmake-wrapper.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\vcpakage\vcpkg\installed\x64-windows\share\glut\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

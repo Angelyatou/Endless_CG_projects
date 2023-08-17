@@ -1,0 +1,77 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/Microsoft Visual Studio/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30148.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/Microsoft Visual Studio/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30148 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30148.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_80295\fast && 	"E:\Microsoft Visual Studio\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\nmake.exe"  -f CMakeFiles\cmTC_80295.dir\build.make /nologo -L                  CMakeFiles\cmTC_80295.dir\build
+Building C object CMakeFiles/cmTC_80295.dir/CMakeCCompilerABI.c.obj
+	"D:\ProgramFilesC\Clion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_80295.dir\CMakeCCompilerABI.c.obj.d --working-dir=E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- E:\MICROS~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x64\cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\nm19AC.tmp
+CMakeCCompilerABI.c
+?鈷? 鍖呭惈鏂囦欢:  D:\ProgramFilesC\Clion\CLion 2022.2.4\bin\cmake\win\share\cmake-3.23\Modules\CMakeCompilerABI.h
+Linking C executable cmTC_80295.exe
+	"D:\ProgramFilesC\Clion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_80295.dir --rc=C:\PROGRA~2\WINDOW~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WINDOW~1\10\bin\100190~1.0\x86\mt.exe --manifests -- E:\MICROS~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\cmTC_80295.dir\objects1.rsp @C:\Users\ADMINI~1\AppData\Local\Temp\nm1A0A.tmp
+	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file E:/vcpakage/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-debug/CMakeFiles/CMakeTmp/cmTC_80295.exe -installedDir E:/vcpakage/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_936ed\fast && 	"E:\Microsoft Visual Studio\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\nmake.exe"  -f CMakeFiles\cmTC_936ed.dir\build.make /nologo -L                  CMakeFiles\cmTC_936ed.dir\build
+Building CXX object CMakeFiles/cmTC_936ed.dir/CMakeCXXCompilerABI.cpp.obj
+	"D:\ProgramFilesC\Clion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_936ed.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=E:\Endless_CG_Projects\LearnOpenGL\learn_gl\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="注意: 包含文件:  " -- E:\MICROS~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x64\cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\nm1D56.tmp
+CMakeCXXCompilerABI.cpp
+?鈷? 鍖呭惈鏂囦欢:  D:\ProgramFilesC\Clion\CLion 2022.2.4\bin\cmake\win\share\cmake-3.23\Modules\CMakeCompilerABI.h
+Linking CXX executable cmTC_936ed.exe
+	"D:\ProgramFilesC\Clion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_936ed.dir --rc=C:\PROGRA~2\WINDOW~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WINDOW~1\10\bin\100190~1.0\x86\mt.exe --manifests -- E:\MICROS~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\cmTC_936ed.dir\objects1.rsp @C:\Users\ADMINI~1\AppData\Local\Temp\nm1DC4.tmp
+	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file E:/vcpakage/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/Endless_CG_Projects/LearnOpenGL/learn_gl/cmake-build-debug/CMakeFiles/CMakeTmp/cmTC_936ed.exe -installedDir E:/vcpakage/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+
+
+
